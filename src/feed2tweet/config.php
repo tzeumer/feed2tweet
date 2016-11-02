@@ -51,6 +51,4 @@ $users = array (
         )
     )
 );
-
-include('config_dev.php');
 ?>
