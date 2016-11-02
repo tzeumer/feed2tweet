@@ -1,0 +1,9 @@
+
+#ignore thumbnails created by windows
+Thumbs.db
+
+#ignore composer downloads
+/vendor/
+
+#clean cache folder
+/src/feed2tweet/cache/*.txt

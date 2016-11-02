@@ -1,0 +1,41 @@
+{
+    "name": "tzeumer/feed2tweet",
+    "description" : "Fetch a feed and post again as tweet.",
+    "keywords": [
+        "Twitter",
+        "API",
+        "networking",
+        "Feed",
+        "RSS",
+        "Atom"
+    ],
+    "homepage": "https://github.com/tzeumer/feed2tweet",
+    "license": "MIT ",
+    "authors": [
+        {
+            "name": "Tobias Zeumer",
+            "email": "github@verweisungsform.de",
+            "homepage": "https://github.com/tzeumer",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "github@verweisungsform.de",
+        "issues": "https://github.com/tzeumer/feed2tweet/issues",
+        "source": "https://github.com/tzeumer/feed2tweet/releases"
+    },
+    "require": {
+        "php": ">=5.5.0",
+        "ext-hash": "*",
+        "ext-json": "*",
+        "lib-openssl": "*",
+        "composer/installers": "~1.0"
+    },
+    "autoload": {
+        "classmap": ["src/feed2tweet/"]
+    },
+    "require-dev": {
+        "jublonet/codebird-php": "*",
+        "fguillot/picoFeed": "*"
+    }
+}
